@@ -5,6 +5,9 @@ public class payCheck {
             Scanner in = new Scanner(System.in);
             System.out.println("Enter the employee name: ");
             String empName = in.nextLine();
+            if(empName.equals("DONE")){
+                break;
+            }
             System.out.println("Enter the Pay rate: ");
             float empPayRate = in.nextFloat();
             if(empPayRate == 0){
