@@ -47,8 +47,8 @@ public static void main(String[] args) {
     }
 
     emps[0].setInfo("Joe", 400, 10000.0);
-    emps[1].setInfo("Sue", 1400, 20000.0);
-    emps[2].setInfo("Ann", 500, 30000.0);
+    emps[1].setInfo("Jaane", 1400, 20000.0);
+    emps[2].setInfo("Annt", 500, 30000.0);
 
 
     for (int i = 0; i < emps.length; i++)
