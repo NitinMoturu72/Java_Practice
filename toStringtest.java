@@ -49,7 +49,7 @@ class Employee
 public class toStringtest {
     public static void main(String args[])
 	{
-		Employee e = new Employee("Bob", 1000, 10000.0);
+		Employee e = new Employee("Jane", 1000, 10000.0);
 
 		System.out.println(e);
 	}
